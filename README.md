@@ -35,21 +35,36 @@
 
 ---
 
+
 ## 💙 2. Our Selected Words from the Basic Vocabulary List
 
 ### 2-1. About the List
 
-- [목록을 살펴보고 알게 된 점. 예: 3,000개 단어, `*`/`**`로 학교급 표시, 단어군(word family)과 변이형(variation) 정보 포함 등]
+- **List Structure:** 영어과 교육과정의 기본 어휘 목록으로, 단어들이 알파벳순으로 정리되어 있어 필요한 어휘를 쉽게 찾아볼 수 있다.
+
+- **Vocabulary Levels:** 단어에 `*`, `**` 표시가 포함되어 있어 학습 단계에 따른 어휘를 구분할 수 있다. 우리 조는 16세 학습자를 대상으로 다양한 수준의 단어를 선정하였다.
+
+- **Word Families:** `emerge (emergence)`, `environ (environment)`와 같이 괄호 안에 관련 단어가 제시되어 있어 단어의 형태와 의미 관계를 함께 학습할 수 있다.
+
+- **Variations:** `color / colour`, `analyze / analyse`와 같이 미국식·영국식 철자 변이형이 제시되어 있어 다양한 영어 표현을 학습하는 데 활용할 수 있다.
+
 
 ### 2-2. Selected Words (10–20)
 
-`[word 1]`, `[word 2]`, `[word 3]`, `[word 4]`, `[word 5]`, `[word 6]`, `[word 7]`, `[word 8]`, `[word 9]`, `[word 10]`
+`achieve`, `environment`, `influence`, `improve`, `challenge`, `evaluate`, `participate`, `stress`, `solution`, `contribute`, `attach`, `attention`, `behalf`, `become`, `carve`, `caution`, `domain`, `drown`, `elaborate`, `emerge / emergence`
 
 ### 2-3. Why We Chose These Words
 
-- [선정 기준 1. 예: 목표 학습자 수준(`*` 초등 권장 단어)에 맞는 단어]
-- [선정 기준 2. 예: 단어군 정보가 있어 word-family 활동에 쓸 수 있는 단어]
-- [선정 기준 3. 예: 학습자의 일상과 관련이 있어 예문을 만들기 쉬운 단어]
+- **Learner Level and Academic Relevance:** 16세 학습자의 수준과 학습 요구를 고려하여 학교 수업, 영어 독해 지문, 발표 및 글쓰기에서 유용하게 사용되는 어휘를 선정하였다. 특히 학업적 성취, 문제 해결, 정보 평가 등 학습 활동과 밀접하게 관련된 단어를 포함하였다.
+
+- **Real-life Relevance:** 학교생활, 대인관계, 진로, 디지털 환경 등 학습자가 일상적으로 경험하는 상황과 관련된 단어를 선정하였다. 이를 통해 학습자가 단어의 의미를 자신의 경험과 연결하고 실제 의사소통 상황에서 활용할 수 있도록 하였다.
+
+- **Various Contexts and Meanings:** 과학, 사회, 기술, 문화 등 다양한 주제의 지문에서 활용할 수 있는 단어를 선정하였다. 또한 하나의 단어가 문맥에 따라 여러 의미로 사용되는 경우를 포함하여 학습자가 문맥을 통해 의미를 이해하고 추론할 수 있도록 하였다.
+
+- **Word Families and Word Forms:** `emerge / emergence`와 같이 형태와 품사가 연결되는 단어를 포함하였다. 이를 통해 학습자가 단어의 형태 변화와 품사별 활용을 이해하고 어휘 지식을 확장할 수 있도록 하였다.
+
+- **Practical Expressions:** `pay attention to`, `on behalf of`, `elaborate on` 등 실제 영어에서 자주 사용되는 표현을 학습할 수 있는 단어를 선정하였다. 이를 통해 단어의 개별 의미뿐만 아니라 문장 속에서의 자연스러운 사용법도 익힐 수 있도록 하였다.
+
 
 ---
 
