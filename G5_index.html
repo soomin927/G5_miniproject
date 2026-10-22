@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sushi Word Voyage 🍣</title>
+<style>
+:root{--ink:#24334b;--coral:#ff6978;--cream:#fff8e9;--teal:#21b7a8;--yellow:#ffd66d;--muted:#65738a}*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;background:radial-gradient(circle at 10% 5%,#fff0cf,transparent 35%),linear-gradient(145deg,#fff9ed,#f4fbff);color:var(--ink)}button{font:inherit;cursor:pointer}button:focus-visible{outline:4px solid #2976e8;outline-offset:3px}.wrap{max-width:1150px;margin:auto;padding:22px}.top{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}.brand{font-size:clamp(1.6rem,4vw,2.5rem);font-weight:900;letter-spacing:-1px}.subtitle{color:var(--muted);margin:5px 0 0}.pill{background:white;padding:10px 17px;border-radius:99px;box-shadow:0 5px 20px #283c5612;font-weight:800}.hero{margin:24px 0;background:linear-gradient(110deg,#ff7683,#ffa36f);border-radius:28px;padding:25px;color:white;display:flex;align-items:center;justify-content:space-between;gap:15px;box-shadow:0 12px 28px #f27b7b36}.hero h1{font-size:clamp(1.5rem,4vw,2.5rem);margin:0 0 8px}.hero p{margin:0;max-width:600px;line-height:1.55}.hero-art{font-size:clamp(3rem,9vw,6rem)}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.stat,.panel{background:#fff;border-radius:20px;padding:18px;box-shadow:0 6px 22px #1d385a0c}.stat strong{display:block;font-size:1.7rem}.stat span{color:var(--muted);font-size:.86rem}.progress{height:12px;border-radius:99px;background:#e8eff2;overflow:hidden;margin-top:12px}.progress>div{height:100%;background:linear-gradient(90deg,var(--teal),#74d9c7);transition:width .3s}.main{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;margin-top:20px}.panel h2{margin:0 0 8px}.hintline{color:var(--muted);font-size:.92rem}.belt{position:relative;overflow:hidden;background:repeating-linear-gradient(90deg,#d3e6eb 0 32px,#c5dce2 32px 64px);border:10px solid #627b8b;border-radius:90px;min-height:175px;display:flex;align-items:center;padding:20px 12px;margin:22px 0}.belt:before{content:"";position:absolute;inset:8px;border:2px dashed #ffffff9e;border-radius:80px;pointer-events:none}.sushi-track{display:flex;gap:15px;animation:drift 48s linear infinite;width:max-content;will-change:transform}.belt:focus-within .sushi-track{animation-play-state:paused}@keyframes drift{from{transform:translateX(0)}to{transform:translateX(-50%)}}.sushi{flex:0 0 135px;min-height:115px;border:2px solid #ffcf8c;border-radius:24px;background:#fffdf7;box-shadow:0 7px 0 #a6bbc4,0 10px 16px #0002;padding:9px 7px;transition:transform .2s}.sushi:hover{transform:translateY(-7px)}.sushi .emoji{display:block;font-size:2.7rem}.sushi .word{font-size:.9rem;font-weight:800;overflow-wrap:anywhere}.sushi.review{box-shadow:0 7px 0 #e8ac55,0 10px 16px #0002}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:14px}.btn{border:0;border-radius:13px;padding:12px 16px;font-weight:800;background:#eaf2f5;color:var(--ink)}.btn.primary{background:var(--coral);color:white}.btn.teal{background:var(--teal);color:white}.btn:disabled{opacity:.45;cursor:not-allowed}.question-box{background:#f8fbff;border:2px solid #e5eef8;border-radius:18px;padding:20px;margin-top:15px}.tag{display:inline-block;background:#e0f7f1;color:#147d70;font-weight:800;border-radius:99px;padding:5px 11px;font-size:.8rem}.question{font-size:1.25rem;line-height:1.55;font-weight:800;margin:14px 0}.answers{display:grid;grid-template-columns:1fr 1fr;gap:9px}.answer{border:2px solid #e0e8ee;background:white;border-radius:13px;padding:14px;text-align:left;font-weight:700;min-height:62px}.answer:hover:not(:disabled){border-color:var(--teal);background:#f0fffc}.answer:disabled{cursor:default}.answer.correct{background:#d8f9e9;border-color:#32ad7e}.answer.wrong{background:#ffe0e3;border-color:#ef6679}.feedback{min-height:58px;line-height:1.5;margin-top:13px;padding:10px 12px;border-radius:12px;background:#fff3da}.feedback:empty{display:none}.collection{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:15px}.collect{background:#f5f8fb;border-radius:12px;text-align:center;padding:9px 3px;font-size:1.6rem}.collect span{display:block;font-size:.65rem;overflow-wrap:anywhere;color:#56687c}.collect.locked{filter:grayscale(1);opacity:.5}.wordlist{max-height:270px;overflow:auto;margin-top:12px}.wordrow{display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid #edf0f4;padding:9px 2px;font-size:.9rem}.wordrow span:last-child{color:#6b7b91}.foot{color:var(--muted);font-size:.84rem;line-height:1.5;margin:25px 0}.empty{color:var(--muted);padding:15px}.notice{font-weight:800;color:#8c5721}@media(max-width:800px){.main{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}.hero-art{display:none}}@media(max-width:440px){.wrap{padding:12px}.hero{padding:18px}.answers{grid-template-columns:1fr}.collection{grid-template-columns:repeat(4,1fr)}.stat{padding:13px}.stat strong{font-size:1.3rem}}@media(prefers-reduced-motion:reduce){.sushi-track{animation:none}.sushi{transition:none}} 
+</style>
+</head>
+<body><div class="wrap"><header class="top"><div><div class="brand">🍣 Sushi Word Voyage</div><p class="subtitle">Learn English, one delicious word at a time!</p></div><div class="actions" style="margin-top:0;align-items:center"><button class="btn" id="musicBtn" aria-pressed="false">♫ Music: OFF</button><div class="pill" id="roundLabel">Round 1 / 5</div></div></header>
+<section class="hero"><div><h1>Pick a sushi. Grow your vocabulary!</h1><p>20 words • 5 learning rounds • meaning and sentence challenges • smart review. No timer, no account — learn at your own pace.</p></div><div class="hero-art" aria-hidden="true">🍱🥢</div></section>
+<div class="stats"><div class="stat"><strong id="attempts">0</strong><span>Questions completed</span></div><div class="stat"><strong id="accuracy">0%</strong><span>First-try accuracy</span></div><div class="stat"><strong id="collected">0/20</strong><span>Sushi collected</span></div><div class="stat"><strong id="exposures">0/100</strong><span>Core encounters</span></div></div><div class="progress" role="progressbar" aria-label="Core learning progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress"><div id="bar"></div></div>
+<main class="main"><section class="panel"><h2>🚃 Conveyor Belt</h2><div class="hintline">Tap a moving sushi to start a quiz. Every question has exactly one correct answer among A, B and C.</div><div class="belt"><div class="sushi-track" id="track"></div></div><div class="actions"><button class="btn primary" id="nextBtn">🎲 Next word</button><button class="btn teal" id="reviewBtn">🔁 Smart review</button><button class="btn" id="restartBtn">↺ Reset progress</button></div><p class="hintline" id="status" aria-live="polite"></p><div class="question-box" id="quiz" aria-live="polite"><span class="tag">Ready?</span><div class="question">Choose a sushi above or press “Next word” to begin!</div></div></section>
+<aside><section class="panel"><h2>🍱 My Sushi Collection</h2><p class="hintline">Earn each sushi by answering correctly. Your collection stays on this device.</p><div class="collection" id="collection"></div></section><section class="panel" style="margin-top:18px"><h2>📚 Word Progress</h2><p class="hintline">Each word appears in at least five core questions. Review difficult words anytime.</p><div class="wordlist" id="wordlist"></div></section></aside></main><footer class="foot">Tip: Incorrect answers and “I Don't Know” give you a hint and another try. After two unsuccessful tries, the answer and a short explanation appear. Progress is saved locally in this browser; no information is sent to a server.</footer></div>
+<script>
+'use strict';
+// Group's final 20 target words; utilize/utilise and emerge/emergence are word-family variants.
+const WORDS=[
+{w:'achieve',ko:'달성하다, 성취하다',e:['I want to ___ my goal.','With daily practice, she managed to ___ a higher score.','Although the task seemed difficult, the team worked together to ___ its goal.'],hint:'Reach a goal through effort.',icon:'🍣'},
+{w:'evaluate',ko:'평가하다',e:['Teachers ___ student work.','We need to ___ the results before choosing a plan.','Scientists carefully ___ evidence to decide whether a claim is reliable.'],hint:'Judge quality or value.',icon:'🍙'},
+{w:'influence',ko:'영향, 영향을 미치다',e:['Friends can ___ our choices.','Music can ___ how people feel.','Social media may strongly ___ the decisions young people make.'],hint:'Change or affect someone or something.',icon:'🍤'},
+{w:'improve',ko:'향상시키다, 개선하다',e:['Practice can ___ your English.','Reading every day can ___ your vocabulary.','The school introduced new methods to ___ students’ learning experiences.'],hint:'Make something better.',icon:'🍥'},
+{w:'participate',ko:'참여하다',e:['I want to ___ in the game.','Students can ___ in the school festival.','Everyone was encouraged to ___ in the discussion about climate change.'],hint:'Take part in an activity.',icon:'🥟'},
+{w:'recognize',ko:'알아보다, 인정하다',e:['I ___ her face.','Can you ___ this song from the first few notes?','It is important to ___ the contributions of people who work behind the scenes.'],hint:'Identify something or acknowledge it.',icon:'🍣'},
+{w:'significant',ko:'중요한, 의미 있는',e:['This is a ___ change.','The test showed a ___ improvement in reading skills.','The discovery had a ___ impact on how scientists understood the problem.'],hint:'Important or large enough to matter.',icon:'🍙'},
+{w:'traditional',ko:'전통적인',e:['We ate ___ food.','The festival includes ___ music and dancing.','Some families continue to celebrate holidays through ___ customs passed down over generations.'],hint:'Related to customs from the past.',icon:'🍤'},
+{w:'understand',ko:'이해하다',e:['I ___ this lesson.','Pictures can help us ___ difficult ideas.','To solve the conflict, both sides must ___ each other’s point of view.'],hint:'Know the meaning or reason.',icon:'🍥'},
+{w:'variable',ko:'변수, 변하기 쉬운',e:['Temperature is a ___.','The scientist changed one ___ at a time.','To make the experiment fair, researchers controlled every ___ except the one being tested.'],hint:'A factor that can change.',icon:'🥟'},
+{w:'attach',ko:'붙이다, 첨부하다',e:['Please ___ the photo.','Remember to ___ the file to your email.','Before submitting the assignment, students should ___ the required documents.'],hint:'Fasten or add something to something else.',icon:'🍣'},
+{w:'treat',ko:'대하다, 취급하다, 치료하다',e:['Please ___ others kindly.','Doctors ___ patients at the hospital.','A respectful community should ___ people fairly regardless of their background.'],hint:'Behave toward someone in a certain way; also provide medical care.',icon:'🍙'},
+{w:'behalf',ko:'이익, 편, 대표 (on behalf of)',e:['I spoke on ___ of my team.','She accepted the award on ___ of the group.','The student representative delivered a speech on ___ of the graduating class.'],hint:'Used in the phrase “on behalf of” = representing.',icon:'🍤'},
+{w:'become',ko:'~이 되다, ~해지다',e:['I want to ___ a teacher.','The sky will ___ dark after sunset.','As more people joined the project, the small idea began to ___ a community movement.'],hint:'Start to be something different.',icon:'🍥'},
+{w:'utilize',ko:'활용하다, 이용하다',e:['We can ___ this tool.','Students should ___ online resources wisely.','The researchers decided to ___ available data to develop a better solution.'],hint:'Use something effectively (also spelled utilise).',icon:'🥟'},
+{w:'caution',ko:'주의, 조심, 경고',e:['Use ___ on wet floors.','The guide advised ___ when walking near the cliff.','Experts recommend ___ when sharing personal information on unfamiliar websites.'],hint:'Care taken to avoid danger or mistakes.',icon:'🍣'},
+{w:'domain',ko:'영역, 분야, 인터넷 도메인',e:['Science is one ___.','This topic belongs to the ___ of education.','The research combines knowledge from the medical ___ and computer science.'],hint:'An area of knowledge, activity, or the internet.',icon:'🍙'},
+{w:'volunteer',ko:'자원봉사자, 자원봉사하다',e:['I am a ___ at the library.','A ___ helped clean the local park.','Each ___ contributed time and effort to support families after the storm.'],hint:'Someone who helps without being paid.',icon:'🍤'},
+{w:'whether',ko:'~인지 아닌지',e:['I wonder ___ it will rain.','She asked ___ the museum was open.','The committee discussed ___ the new policy would benefit all students.'],hint:'Introduces two possibilities or uncertainty.',icon:'🍥'},
+{w:'emerge',ko:'나타나다, 드러나다 (emergence: 출현)',e:['New ideas can ___.','A rainbow began to ___ after the storm.','As researchers analyzed the data, a surprising pattern started to ___.'],hint:'Appear or become known; noun: emergence.',icon:'🥟'}
+];
+const KEY='sushi-word-voyage-v1';
+const fresh=()=>({counts:Array(20).fill(0),errors:Array(20).fill(0),last:Array(20).fill(0),owned:Array(20).fill(false),done:0,firstCorrect:0,history:[],seq:0});
+let state;try{const saved=JSON.parse(localStorage.getItem(KEY));state=saved&&Array.isArray(saved.counts)&&saved.counts.length===20?{...fresh(),...saved}:fresh()}catch{state=fresh()}
+let current=null,tries=0,blocked=false,reviewMode=false,options=[];
+const $=id=>document.getElementById(id),save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state))}catch{}};
+function level(i){return Math.min(2,Math.floor(state.counts[i]/2))}
+// Fisher-Yates shuffle; each option is identified by the source word index.
+function shuffle(items){for(let k=items.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1));[items[k],items[j]]=[items[j],items[k]]}return items}
+function makeChoices(i,type){
+  const distractors=shuffle(WORDS.map((_,j)=>j).filter(j=>j!==i && (type!=='meaning'||WORDS[j].ko!==WORDS[i].ko))).slice(0,2);
+  const choices=shuffle([i,...distractors]).map(j=>({
+    wordIndex:j, value:type==='meaning'?WORDS[j].ko:WORDS[j].w
+  }));
+  if(choices.length!==3||new Set(choices.map(o=>o.wordIndex)).size!==3||
+     choices.filter(o=>o.wordIndex===i).length!==1||new Set(choices.map(o=>o.value)).size!==3)throw Error('Invalid quiz options');
+  return choices;
+}
+function draw(){let completed=state.counts.reduce((a,b)=>a+Math.min(5,b),0);$('attempts').textContent=state.done;$('accuracy').textContent=state.done?Math.round(state.firstCorrect/state.done*100)+'%':'0%';$('collected').textContent=state.owned.filter(Boolean).length+'/20';$('exposures').textContent=completed+'/100';$('bar').style.width=completed+'%';$('progress').setAttribute('aria-valuenow',completed);$('roundLabel').textContent=completed===100?'Core course complete!':`Round ${Math.min(5,Math.floor(Math.min(...state.counts))+1)} / 5`;
+$('collection').innerHTML=WORDS.map((x,i)=>`<div class="collect ${state.owned[i]?'':'locked'}" title="${x.w}">${x.icon}<span>${x.w}</span></div>`).join('');$('wordlist').innerHTML=WORDS.map((x,i)=>`<div class="wordrow"><b>${x.w}</b><span>${Math.min(5,state.counts[i])}/5 · ${state.errors[i]?'🔁 '+state.errors[i]:'✓'}</span></div>`).join('');
+const order=WORDS.map((x,i)=>i).filter(i=>state.counts[i]<5);const visible=order.length?order:WORDS.map((_,i)=>i);const belt=visible.map(i=>`<button class="sushi ${state.errors[i]?'review':''}" data-word="${i}" aria-label="Choose ${WORDS[i].w}"><span class="emoji" aria-hidden="true">${WORDS[i].icon}</span><span class="word">${WORDS[i].w}</span></button>`).join('');$('track').innerHTML=belt+belt;$('track').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>start(Number(b.dataset.word),false)));
+$('status').textContent=completed===100?'🎉 You completed all 100 core encounters! Keep practicing with Smart review.':`Core practice: ${completed} of 100 encounters. Orange-shadow sushi need extra attention.`;
+}
+function pick(review){let indices=WORDS.map((_,i)=>i);if(!review){let remaining=indices.filter(i=>state.counts[i]<5);if(remaining.length)indices=remaining;else review=true}if(review){indices.sort((a,b)=>score(b)-score(a));let top=indices.slice(0,Math.min(6,indices.length));return top[Math.floor(Math.random()*top.length)]}let min=Math.min(...indices.map(i=>state.counts[i]));let candidates=indices.filter(i=>state.counts[i]===min);return candidates[Math.floor(Math.random()*candidates.length)]}
+function score(i){return state.errors[i]*5+(state.seq-state.last[i])/10+(state.counts[i]<5?3:0)}
+function start(i,review){current=i;reviewMode=review;tries=0;blocked=false;const x=WORDS[i],type=state.counts[i]%2===0?'meaning':'sentence';options=makeChoices(i,type);let question=type==='meaning'?`What does “${x.w}” mean in Korean?`:x.e[level(i)].replace('___','<u>_____</u>')+`<div class="hintline">Meaning clue: ${x.ko}</div>`;$('quiz').innerHTML=`<span class="tag">${review?'🔁 Cumulative review · ':''}${type==='meaning'?'Korean meaning':'Complete the sentence'} · Level ${level(i)+1}</span><div class="question">${question}</div><div class="answers" id="answers"></div><div class="feedback" id="feedback" role="status" aria-live="polite"></div><div class="actions"><button class="btn" id="hintBtn">💡 Hint</button><button class="btn" id="unknownBtn">🤔 I Don't Know</button><button class="btn primary" id="skipBtn" style="display:none">Next sushi →</button></div>`;
+options.forEach((o,k)=>{let b=document.createElement('button');b.className='answer';b.replaceChildren();const letter=document.createElement('strong');letter.textContent=String.fromCharCode(65+k)+'. ';b.append(letter,document.createTextNode(o.value));b.dataset.index=String(k);b.onclick=()=>answer(k);$('answers').appendChild(b)});$('hintBtn').onclick=hint;$('unknownBtn').onclick=unknown;$('skipBtn').onclick=()=>start(pick(reviewMode),reviewMode)}
+function hint(){if(current===null||blocked)return;$('feedback').textContent='💡 Hint: '+WORDS[current].hint}
+function unknown(){if(current===null||blocked)return;miss();}
+function miss(){tries++;if(tries===1){$('feedback').textContent='💡 Not quite! '+WORDS[current].hint+' Try again — you can do it!';}else finish(false)}
+function answer(k){if(current===null||blocked||!Number.isInteger(k)||k<0||k>=options.length)return;const b=$('answers').children[k];if(options[k].wordIndex===current){b.classList.add('correct');finish(true)}else{b.classList.add('wrong');b.disabled=true;miss()}}
+function finish(success){blocked=true;const i=current,x=WORDS[i];state.done++;state.seq++;state.last[i]=state.seq;state.counts[i]++;if(success&&tries===0)state.firstCorrect++;if(tries>0||!success)state.errors[i]++;else state.errors[i]=Math.max(0,state.errors[i]-1);if(success)state.owned[i]=true;state.history.push({word:x.w,success,tries,at:Date.now()});if(state.history.length>300)state.history.shift();const correct=options.find(o=>o.wordIndex===i).value;$('answers').querySelectorAll('button').forEach((b,k)=>{b.disabled=true;if(options[k].wordIndex===i)b.classList.add('correct')});$('feedback').innerHTML=(success?'🎉 Correct! Sushi collected! ':'📖 Good practice! ')+'<strong>Answer: '+correct+'</strong><br>'+x.w+' = '+x.ko+'. '+x.hint;$('hintBtn').disabled=true;$('unknownBtn').disabled=true;$('skipBtn').style.display='inline-block';save();draw()}
+
+// Self-contained Web Audio melody: no downloads, network, or external assets.
+let audioCtx=null,musicTimer=null,musicOn=false,musicStep=0;
+const melody=[76,79,81,79,76,74,72,74,76,79,83,81,79,76,74,72,
+  74,76,79,76,74,72,71,72,74,76,79,83,81,79,76,74];
+const harmony=[48,55,52,57,48,55,53,55];
+function playTone(midi,when,duration,volume,shape='sine'){
+  const oscillator=audioCtx.createOscillator(),gain=audioCtx.createGain();
+  oscillator.type=shape;oscillator.frequency.value=440*Math.pow(2,(midi-69)/12);
+  gain.gain.setValueAtTime(0.0001,when);
+  gain.gain.exponentialRampToValueAtTime(volume,when+0.018);
+  gain.gain.exponentialRampToValueAtTime(0.0001,when+duration);
+  oscillator.connect(gain).connect(audioCtx.destination);
+  oscillator.start(when);oscillator.stop(when+duration+0.02);
+}
+function musicTick(){
+  if(!musicOn||!audioCtx)return;
+  const t=audioCtx.currentTime+0.03,step=musicStep++;
+  playTone(melody[step%melody.length],t,0.31,0.028,'sine');
+  if(step%4===0)playTone(harmony[Math.floor(step/4)%harmony.length],t,0.95,0.013,'triangle');
+  if(step%2===0)playTone(84,t,0.045,0.004,'sine');
+}
+function stopMusic(){
+  musicOn=false;clearInterval(musicTimer);musicTimer=null;
+  $('musicBtn').textContent='♫ Music: OFF';$('musicBtn').setAttribute('aria-pressed','false');
+  if(audioCtx)audioCtx.suspend().catch(()=>{});
+}
+$('musicBtn').addEventListener('click',async()=>{
+  if(musicOn){stopMusic();return}
+  try{
+    audioCtx=audioCtx||new (window.AudioContext||window.webkitAudioContext)();
+    await audioCtx.resume();
+    musicOn=true;musicTick();musicTimer=setInterval(musicTick,350);
+    $('musicBtn').textContent='♫ Music: ON';$('musicBtn').setAttribute('aria-pressed','true');
+  }catch(e){$('musicBtn').textContent='♫ Music unavailable'}
+});
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&musicOn)stopMusic()});
+$('nextBtn').onclick=()=>start(pick(false),false);$('reviewBtn').onclick=()=>start(pick(true),true);$('restartBtn').onclick=()=>{if(confirm('Reset all learning progress and your sushi collection?')){state=fresh();save();current=null;$('quiz').innerHTML='<span class="tag">Ready?</span><div class="question">Choose a sushi or press “Next word” to begin!</div>';draw()}};draw();
+</script></body></html>
