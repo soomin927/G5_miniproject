@@ -165,19 +165,20 @@
 ## 💙 6. Test and Improve
 
 ### 6-1. Checklist
-
-- [ ] All features work (every button was clicked).
-- [ ] All words, meanings, and sentences are correct.
-- [ ] The app gives clear feedback for right and wrong answers.
-- [ ] Learners **retrieve** words and meet each word **more than once**.
-- [ ] The app is easy to use on a phone.
+- [x] All features work (every button was clicked).
+- [x] All words, meanings, and sentences are correct.
+- [x] The app gives clear feedback for right and wrong answers.
+- [x] Learners **retrieve** words and meet each word **more than once**.
+- [x] The app is easy to use on a phone.
 
 ### 6-2. Problems Found and How We Fixed Them
-
-| Problem | Fix |
 |---|---|
-| [예: 정답을 맞혀도 점수가 올라가지 않음] | [예: AI에게 점수 계산 부분만 고쳐 달라고 요청] |
-| [ ... ] | [ ... ] |
+| 배경음악이 재생되지 않는 문제가 발생함. | AI에게 배경음악이 정상적으로 재생되도록 음악 재생 기능을 수정해 달라고 요청함. |
+| A, B, C 선택지 중 정답이 아예 포함되지 않은 문제가 발생함. | AI에게 모든 문제의 선택지에 반드시 하나의 정답이 포함되도록 수정해 달라고 요청함. |
+| 정답을 선택했는데도 오답으로 처리되는 문제가 발생함. | AI에게 정답 판별 로직을 수정하여 올바른 답을 선택하면 정답으로 처리되도록 요청함. |
+| 선택지가 A, B, C 순서대로 표시되지 않거나 일부 알파벳이 누락되는 문제가 발생함. | AI에게 선택지가 A, B, C 순서대로 빠짐없이 표시되도록 수정해 달라고 요청함. |
+| 회전초밥이 컨베이어 벨트 위에서 움직이지 않는 문제가 발생함. | AI에게 초밥이 컨베이어 벨트를 따라 자연스럽게 움직이도록 애니메이션을 수정해 달라고 요청함. |
+
 
 ### 6-3. Saved Versions
 
