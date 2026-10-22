@@ -48,22 +48,21 @@
 
 - **Variations:** `color / colour`, `analyze / analyse`와 같이 미국식·영국식 철자 변이형이 제시되어 있어 다양한 영어 표현을 학습하는 데 활용할 수 있다.
 
-
 ### 2-2. Selected Words (10–20)
 
-`achieve`, `environment`, `influence`, `improve`, `challenge`, `evaluate`, `participate`, `stress`, `solution`, `contribute`, `attach`, `attention`, `behalf`, `become`, `carve`, `caution`, `domain`, `drown`, `elaborate`, `emerge / emergence`
+`achieve`, `evaluate`, `influence`, `improve`, `participate`, `recognize`, `significant`, `traditional`, `understand`, `variable`, `attach`, `treat`, `behalf`, `become`, `utilize / utilise`, `caution`, `domain`, `volunteer`, `whether`, `emerge / emergence`
 
 ### 2-3. Why We Chose These Words
 
-- **Learner Level and Academic Relevance:** 16세 학습자의 수준과 학습 요구를 고려하여 학교 수업, 영어 독해 지문, 발표 및 글쓰기에서 유용하게 사용되는 어휘를 선정하였다. 특히 학업적 성취, 문제 해결, 정보 평가 등 학습 활동과 밀접하게 관련된 단어를 포함하였다.
+- **Learner Level and Academic Relevance:** 16세 학습자의 영어 수준과 학습 요구를 고려하여 학교 수업, 영어 독해 지문, 발표 및 글쓰기에서 유용하게 사용되는 어휘를 선정하였다. 특히 `achieve`, `evaluate`, `improve`, `significant`, `understand`와 같이 학업적 성취, 정보 평가, 학습 능력 향상 및 내용 이해와 관련된 단어를 포함하였다.
 
-- **Real-life Relevance:** 학교생활, 대인관계, 진로, 디지털 환경 등 학습자가 일상적으로 경험하는 상황과 관련된 단어를 선정하였다. 이를 통해 학습자가 단어의 의미를 자신의 경험과 연결하고 실제 의사소통 상황에서 활용할 수 있도록 하였다.
+- **Real-life Relevance:** 학교생활, 대인관계, 진로, 봉사활동 및 디지털 환경 등 학습자가 일상적으로 경험하는 상황과 관련된 단어를 선정하였다. `participate`, `volunteer`, `become`, `attach` 등의 단어를 통해 학습자가 자신의 경험과 목표를 영어로 표현하고 실제 의사소통 상황에서 활용할 수 있도록 하였다.
 
-- **Various Contexts and Meanings:** 과학, 사회, 기술, 문화 등 다양한 주제의 지문에서 활용할 수 있는 단어를 선정하였다. 또한 하나의 단어가 문맥에 따라 여러 의미로 사용되는 경우를 포함하여 학습자가 문맥을 통해 의미를 이해하고 추론할 수 있도록 하였다.
+- **Various Contexts and Meanings:** 과학, 사회, 기술, 문화 등 다양한 주제의 지문에서 활용할 수 있는 단어를 선정하였다. `influence`, `domain`, `variable`, `traditional` 등은 여러 분야의 글을 이해하는 데 도움이 되며, `treat`와 같이 문맥에 따라 여러 의미를 갖는 단어를 통해 학습자의 문맥적 의미 추론 능력을 기르고자 하였다.
 
-- **Word Families and Word Forms:** `emerge / emergence`와 같이 형태와 품사가 연결되는 단어를 포함하였다. 이를 통해 학습자가 단어의 형태 변화와 품사별 활용을 이해하고 어휘 지식을 확장할 수 있도록 하였다.
+- **Word Families and Spelling Variations:** `emerge / emergence`와 같이 동사와 명사의 형태적 관계를 학습할 수 있는 단어를 포함하였다. 또한 `utilize / utilise`와 같은 미국식·영국식 철자 변이형을 통해 동일한 의미를 가진 단어가 서로 다른 철자로 사용될 수 있음을 이해하도록 하였다.
 
-- **Practical Expressions:** `pay attention to`, `on behalf of`, `elaborate on` 등 실제 영어에서 자주 사용되는 표현을 학습할 수 있는 단어를 선정하였다. 이를 통해 단어의 개별 의미뿐만 아니라 문장 속에서의 자연스러운 사용법도 익힐 수 있도록 하였다.
+- **Practical Expressions and Sentence Structures:** `attach importance to`, `treat others with respect`, `on behalf of`, `use caution`, `volunteer to help`, `whether A or B` 등 실제 영어에서 활용할 수 있는 표현과 문장 구조를 학습할 수 있도록 단어를 선정하였다. 이를 통해 단어의 개별 의미뿐만 아니라 문맥 속에서의 자연스러운 사용법도 익힐 수 있도록 하였다.
 
 
 ---
@@ -81,7 +80,6 @@
 - **Progressive Difficulty:** 하나의 단어를 여러 문장 속에서 반복적으로 제시하고, 예문의 난이도를 점진적으로 높여 학습자가 다양한 문맥에서 단어의 의미를 이해하도록 한다.
 
 - **Gamification:** 단어 학습에 성공하면 원하는 초밥을 획득하는 보상 방식을 적용하여 학습자의 참여와 동기를 높이고자 한다.
-
 
 ### 3-2. Learners
 
@@ -123,12 +121,14 @@
 
 ## 💙 4. App Features
 
-> Choose **3–4 core features** only. Write one sentence for each: "This feature helps learners ___ because ___."
+1. **Sushi Vocabulary Game:** This feature helps learners stay motivated to learn vocabulary because they can collect sushi by answering vocabulary questions correctly.
 
-1. **[Feature 1, e.g., Flashcards (word → meaning)]**: This feature helps learners [ ___ ] because [ ___ ].
-2. **[Feature 2]**: This feature helps learners [ ___ ] because [ ___ ].
-3. **[Feature 3]**: This feature helps learners [ ___ ] because [ ___ ].
-4. **[Feature 4 (optional)]**: This feature helps learners [ ___ ] because [ ___ ].
+2. **Vocabulary Quizzes:** This feature helps learners recognize word meanings and choose appropriate words in context because they practice both word-to-meaning questions and sentence-based questions with increasing difficulty.
+
+3. **Hints and Retry:** This feature helps learners understand their mistakes because they receive a hint and another chance to answer before seeing the correct answer and explanation.
+
+4. **Cumulative Review:** This feature helps learners remember vocabulary for a longer time because previously incorrect words and words not reviewed recently appear more frequently in cumulative quizzes.
+
 
 ---
 
