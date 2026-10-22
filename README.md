@@ -72,20 +72,28 @@
 
 ### 3-1. Design Concept
 
-- [원하는 디자인의 특징. 예: 밝고 단순한 화면, 큰 버튼, 휴대폰에서 쓰기 편한 화면, 한국어 안내문]
+- **App Concept:** 클래스카드와 유사한 카드형 어휘 학습 웹앱으로, 16세 학습자에게 친숙한 학교 테마를 적용한다.
+
+- **Card-based Learning:** 학습자가 한 번에 하나의 목표 단어를 학습할 수 있도록 단어 카드 형식으로 구성한다.
+
+- **Progressive Difficulty:** 하나의 목표 단어를 다양한 예문에서 반복적으로 제시하되, 예문의 난이도를 점진적으로 높인다. 이를 통해 학습자가 쉬운 문장에서 시작하여 복잡한 문장 속에서도 단어의 의미와 쓰임을 이해할 수 있도록 한다.
+
+- **Interactive Learning:** 학습자가 단어를 이해하지 못했을 때 선택할 수 있는 '모르겠어요' 버튼을 제공한다. 이를 통해 학습자가 자신의 이해 여부를 표시할 수 있도록 한다.
 
 ### 3-2. Learners
 
-- [Who will use the app? 예: Korean Grade 6 (K6) learners]
+- 16세 학습자를 대상으로 한다.
 
 ### 3-3. Goal
 
-- [What should learners be able to do after using the app? 예: Recognize the meaning, spell the word, use it in a sentence]
+- 학습자가 목표 어휘의 의미를 인식하고 이해할 수 있도록 한다.
+- 단어와 관련된 문장을 읽고, 문맥에 적절한 단어를 선택할 수 있도록 한다.
 
 ### 3-4. Learning Activities
 
-- **Encounters (Webb 2007):** [How many times and in what contexts will learners meet each word?]
-- **Retrieval (Nakata et al. 2021):** [When and how often will learners recall the word from memory?]
+- **Encounters (Webb 2007):** 학습자가 각 목표 단어를 최소 5회 이상 반복적으로 접하도록 구성한다. 이를 통해 단어의 의미를 반복해서 확인하고 어휘 지식을 강화할 수 있도록 한다.
+
+- **Retrieval (Nakata et al. 2021):** 이전 퀴즈에서 틀렸던 단어와 정답을 맞혔더라도 마지막 복습 이후 오랜 시간이 지난 단어가 누적 퀴즈에 더 자주 등장하도록 구성한다. 이를 통해 학습자가 이전에 배운 단어를 지속적으로 기억에서 인출하고 장기 기억을 강화할 수 있도록 한다.
 
 ### 3-5. Use of the List Information
 
