@@ -98,11 +98,12 @@
 
 ### 3-5. Use of the List Information
 
-| Information | How our app uses it |
+| Information | How Our App Uses It |
 |---|---|
-| Level (`*`, `**`) | 기본 어휘 목록의 별표 표시를 활용하여 단어를 구분하고, 학습자의 수준에 따라 단계별로 학습할 수 있도록 한다. |
-| Word family (e.g., *emerge* / *emergence*) | 같은 단어군에 속하는 단어를 연결하여 학습할 수 있도록 한다. 예를 들어, `emerge`를 학습한 후 관련 명사인 `emergence`를 추가로 제시하여 단어의 형태와 의미 관계를 이해하도록 한다. |
-| Variation (e.g., *rumor* / *rumour*) | 선정한 20개 단어에는 미국식·영국식 철자 변이형이 별도로 제시되어 있지 않으므로, 현재 앱에서는 해당 정보를 직접 활용하지 않는다. |
+| **Level (`*`, `**`)** | 기본 어휘 목록의 별표 표시를 활용하여 단어의 수준을 구분한다. `become*`, `understand*`, `attach**`, `treat**`, `volunteer**`, `whether**` 등 다양한 표시의 단어를 포함하여 A2–B1 수준의 학습자가 어휘를 학습할 수 있도록 한다. 또한 쉬운 의미 확인 문제에서 시작하여 점차 복잡한 문맥 활용 문제로 난이도를 높인다. |
+| **Word Family (e.g., *emerge / emergence*)** | `emerge`(동사)와 `emergence`(명사)처럼 같은 단어군에 속하는 어휘를 연결하여 제시한다. 학습자가 단어의 형태와 품사에 따른 차이를 이해할 수 있도록 각각의 의미와 예문을 제공한다. 이를 통해 하나의 단어를 학습한 후 관련 어휘로 지식을 확장할 수 있도록 한다. |
+| **Variation (e.g., *utilize / utilise*)** | `utilize`(미국식)와 `utilise`(영국식), `recognize`(미국식)와 `recognise`(영국식)처럼 철자가 다른 변이형을 함께 제시한다. 두 형태의 의미가 같다는 점을 설명하고, 학습자가 서로 다른 철자 형태를 인식할 수 있도록 한다. |
+
 
 ### 3-6. Context Elements (LPGCTXF, Week 03)
 
@@ -131,17 +132,31 @@
 
 
 ---
-
 ## 💙 5. Sample Word Data
-
-> Use **NA** for empty cells. Check AI-generated meanings and sentences carefully.
 
 | Word | Word-family | Variation | Level | Meaning (Korean) | Example sentence |
 |---|---|---|---|---|---|
-| act | actual, interact | NA | Elementary (*) | 행동하다 | They acted quickly to help. |
-| [word 2] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| [word 3] | [ ] | [ ] | [ ] | [ ] | [ ] |
-| ... | | | | | |
+| achieve | NA | NA | ** | 달성하다, 성취하다 | Students work hard to achieve their academic goals. |
+| evaluate | NA | NA | * | 평가하다 | Teachers carefully evaluate students' progress throughout the semester. |
+| influence | NA | NA | ** | 영향, 영향을 미치다 | Friends can have a strong influence on our daily habits. |
+| improve | NA | NA | ** | 향상시키다, 개선하다 | Reading books every day helps improve your vocabulary skills. |
+| participate | NA | NA | No asterisk | 참여하다 | All students are encouraged to participate in class discussions. |
+| recognize | NA | recognise | ** | 인정하다, 알아보다 | It is important to recognize our own mistakes and learn from them. |
+| significant | NA | NA | ** | 중요한, 의미 있는 | The study showed a significant increase in test scores. |
+| traditional | NA | NA | ** | 전통적인 | They wore traditional clothes during the holiday festival. |
+| understand | NA | NA | * | 이해하다 | It takes time to understand complex scientific concepts. |
+| variable | NA | NA | No asterisk | 변수, 변하기 쉬운 | Weather is a major variable in outdoor event planning. |
+| attach | NA | NA | ** | 붙이다, 첨부하다 | Please attach the file to your email. |
+| treat | NA | NA | ** | 대하다, 취급하다, 치료하다 | We should treat everyone with respect. |
+| behalf | NA | NA | No asterisk | 이익, 편; on behalf of: ~을 대신하여 | I am writing this letter on behalf of my classmates. |
+| become | NA | NA | * | ~이 되다, ~해지다 | She wants to become a teacher in the future. |
+| utilize | NA | utilise | No asterisk | 활용하다, 이용하다 | Students can utilize online resources to improve their English. |
+| caution | NA | NA | No asterisk | 주의, 조심; 경고하다 | The sign warns drivers to use caution on the icy road. |
+| domain | NA | NA | No asterisk | 영역, 분야; (인터넷) 도메인 | Education is an important domain of social research. |
+| volunteer | NA | NA | ** | 자원봉사자; 자원하다, 자원봉사하다 | Many students volunteer at the local library. |
+| whether | NA | NA | ** | ~인지 아닌지, ~이든 아니든 | I don't know whether he will join us. |
+| emerge | emergence | NA | No asterisk | 나타나다, 드러나다; emergence: 출현, 등장 | A new leader emerged after the election. |
+
 
 ---
 
