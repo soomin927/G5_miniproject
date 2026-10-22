@@ -102,9 +102,10 @@
 
 | Information | How our app uses it |
 |---|---|
-| Level (`*`, `**`) | [예: 단계별 학습 메뉴로 구분] |
-| Word family (e.g., *species* ~ *specify*) | [예: 같은 단어군 연결하기 퀴즈] |
-| Variation (e.g., *rumor* / *rumour*) | [예: 미국식/영국식 철자를 모두 정답으로 인정] |
+| Level (`*`, `**`) | 기본 어휘 목록의 별표 표시를 활용하여 단어를 구분하고, 학습자의 수준에 따라 단계별로 학습할 수 있도록 한다. |
+| Word family (e.g., *emerge* / *emergence*) | 같은 단어군에 속하는 단어를 연결하여 학습할 수 있도록 한다. 예를 들어, `emerge`를 학습한 후 관련 명사인 `emergence`를 추가로 제시하여 단어의 형태와 의미 관계를 이해하도록 한다. |
+| Variation (e.g., *rumor* / *rumour*) | 선정한 20개 단어에는 미국식·영국식 철자 변이형이 별도로 제시되어 있지 않으므로, 현재 앱에서는 해당 정보를 직접 활용하지 않는다. |
+
 
 ### 3-6. Context Elements (LPGCTXF, Week 03)
 
