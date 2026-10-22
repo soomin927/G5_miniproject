@@ -1,57 +1,144 @@
-# G5_miniproject
+# G5 Mini-project: Vocabulary Learning App (ver. 1.0; asof 10/22, 2026)
+---
 
-# Research Background
-## The main point
-Webb (2007)에서는 활동에서 단어를 접하는 횟수가 증가할수록 어휘 지식이 전반적으로 지속해서 향상된다고 보았다.
-특히, 10회 이상 노출된 집단은 2회 노출된 집단에 비해 측정된 모든 어휘 지식 영역에서 유의미하게 높은 성과를 보였다.
-그러나 철자나 의미를 알아보는 수용적 지식과 단어의 의미를 직접 회상하거나 사용하는 산출적 지식은 서로 다른 속도로 발달하였다.
-단어의 뜻이나 모양을 알아보는 수용적 지식은 비교적 적은 횟수의 노출로도 빠르게 발달하는 반면, 단어의 의미나 철자를 직접 회상하고 사용하는 산출적 지식은 훨씬 더 많은 반복 노출과 시간이 필요합니다.
-어휘 습득의 점진적이고 다차원적인 특성상, 단어 습득은 한 번 뜻을 이해했다고 해서 완결되는 단순 암기가 아니고, 다양한 문맥 속에서 반복해서 접하며 철자, 의미, 문법적 특성 등의 다양한 어휘 지식이 점진적으로 완성되는 과정이라고 보았다.
-Nakata et al. (2021)에서는 어휘 시험은 단순히 학습 성과를 측정하는 도구가 아니라 학습을 촉진하는 활동이 될 수 있으며, 누적 평가는 장기적인 어휘 기억 향상에 기여할 수 있다라고 보았다.
+## 👥 Group Information
 
-## 교육적 시사점
-Webb (2007)에서는 새로운 단어를 수업 시간에 한두 번 제시하는 데 그치지 않고, 학생들이 최소 10회 이상 자연스럽게 재노출될 수 있도록 학습 활동을 구성해야 한다는 점을 이야기하였다.
-또한, 문맥 중심의 어휘 학습을 통해 단어와 뜻을 1:1로 단순히 외우게 하기보다, 실제 문장과 읽기 지문 등 다양한 문맥 속에서 단어가 어떻게 쓰이는지 반복해서 접하게 해야 한다고도 말한다.
-수용적·산출적 지식의 단계적 지도를 통해 학생이 단어를 알아본다고 해서(수용적 지식) 곧바로 해당 단어로 문장을 쓰거나 말할 수 있는 것(산출적 지식)은 아니라는 점을 강조하여, 단어 뜻 알아보기, 단어 떠올리기와 같은 단계별 학습과 연습 기회를 제공해야 한다고 주장한다.
-그리고, 객관식 의미 맞히기 문제뿐만 아니라, 단어 철자 쓰기, 빈칸 채우기, 예문 작성 등 다양한 측면의 어휘 능력을 측정할 수 있는 평가 방식을 조합하여 활용해야 한다고도 말한다.
-Nakata et al. (2021)에서는 최근 학습한 단어와 이전에 학습한 단어를 함께 평가하는 점과 정답을 다시 읽는 활동뿐 아니라 기억에서 직접 단어를 떠올리는 활동을 제공해야 한다고 주장한다.
-그리고, 학습 직후의 시험 성적뿐 아니라 일정 시간이 지난 후의 기억도 확인하고, 시험을 단순한 성적 측정이 아닌 학습 과정의 일부로 활용해야 한다는 것을 말한다.
-마지막으로 누적 평가가 학생에게 부담을 줄 수 있으므로 시험의 목적과 방식을 충분히 안내해야 할 필요성을 말한다.
+| Item | Details |
+|---|---|
+| Group | G5 |
+| Members | 송수민 (Leader), 오소민, 이다영 |
+| README editor | 송수민 |
+| Date & Time | 10/22/2026, 1:00 PM – 4:00 PM |
+| Location | Room 334 |
 
-## 두 논문의 공통점과 차이점
-두 논문을 비교해보았을 때, 두 연구 모두 어휘를 단 한 번 학습하거나 암기하는 것만으로는 완전한 어휘 습득을 이룰 수 없다고 주장하며, 지속적인 반복 학습과 인출 경험이 필요하다고 주장합니다.
-그러나, Webb (2007)연구를 보면 주로 읽기 문맥을 통해 목표 단어를 지속적으로 접하게 하여 단어 노출 횟수를 증가시킴에 따라 수용적 지식과 산출적 지식이 점진적으로 향상된다고 주장하였다.
-하지만, Nakata et al. (2021)을 보면 이전에 배운 단어를 다시 시험에 표ㅗ함하는 출력 및 평가 중심의 누적 시험 효과를 이야기 하고 있다.
+## 💙 1. What We Learned from the Two Articles
 
-## 두 연구를 활용하여 웹앱을 설계할 때 쓸 수 있는 방법
-학습자가 웹앱에서 단순히 단어와 한글 뜻만을 확인하는 것에 그치지 않고, 난이도가 다른 여러 개의 예문을 통해 접할 수 있는 단어 카드를 구성해야 한다.
-그리고, 누적 퀴즈를 통해 장기 기억이 될 수 있도록 제공하는 것도 필요하다. 
+### 1-1. Webb (2007): Vocabulary Learning
 
-# Word list
-- **achieve(달성하다, 성취하다)**: 학업적 성취나 목표 달성과 관련하여 학교 수업 및 지문에서 가장 자주 쓰이는 필수 동사 중 하나이기 때문에 골랐습니다.
-- **environment(환경**: 현대 사회의 중요한 주제인 환경 문제나 다양한 과학·사회 교과 지문에서 필수적으로 등장하는 명사이기 때문에 골랐습니다.
-- **influence(영향, 영향을 미치다)**: 대인관계, 미디어, 사회 현상 등 다양한 맥락에서 원인과 결과를 설명할 때 폭넓게 활용되는 단어이기 때문에 골랐습니다.
-- **improve(향상시키다, 개선하다)**: 성적, 실력, 건강 등을 더 낫게 발전시킨다는 의미로 학생들이 자기주도학습이나 일상 대화에서 자주 쓰기 때문에 골랐습니다.
-- **challenge(도전, 난제, 도전하다)**: 새로운 학업이나 진로 목표를 마주했을 때 겪는 도전 과제나 어려움을 표현하는 데 적절한 단어이기 때문에 골랐습니다.
-- **evaluate(평가하다)**: 지문의 내용을 분석하고 정보의 신뢰성이나 가치를 판단할 때 고교 수준의 독해에서 자주 요구되는 사고 기능 단어이기 때문에 골랐습니다.
-- **participate(참여하다)**: 수업 활동, 동아리, 학교 행사 등 단체 생활과 참여를 다루는 상황에서 반드시 알아야 하는 동사이기 때문에 골랐습니다.
-- **stress(스트레스, 강조하다)**: 학업이나 대인관계에서 학생들이 일상적으로 겪는 심리적 압박 상태나 어떤 내용의 중요성을 강조할 때 쓰이기 때문에 골랐습니다.
-- **solution(해결책)**: 문제 상황(Problem)을 마주했을 때 이를 해결하는 방안을 논의하는 독해 지문이나 회화에서 핵심 역할을 하는 단어이기 때문에 골랐습니다.
-- **contribute(기여하다, 공헌하다)**: 사회 구성원으로서 공동체에 도움을 주거나 특정 결과에 긍정적인 영향을 미친다는 점을 설명하기에 적합한 단어이기 때문에 골랐습니다.
-- **attach(붙이다, 첨부하다)**: 16세의 학습자는 학교 과제, 이메일, 온라인 학습 플랫폼 등을 통해 파일이나 자료를 첨부하는 상황을 접할 수 있기에 선정했다.
-- **attention(주의, 집중)**: 학습자는 수업 중 집중하기, 중요한 정보에 주목하기, 다른 사람의 의견에 귀 기울이기 등 다양한 상황에서 이 개념을 이해하고 표현할 필요가 있다. pay attention to와 같은 빈번한 표현을 학습하면 교실과 일상생활에서 영어를 이해하고 사용하는 데 도움이 되기에 이 단어를 선정했다.
-- **behalf(이익, 편, 대표의 의미로 쓰임 (on behalf of))**: 16세는 학교 행사, 모둠 활동, 발표 등에서 다른 사람이나 집단을 대표하는 상황을 경험할 수 있다. on behalf of라는 표현은 공식적인 발표나 글쓰기에서 유용하며, 일상 회화뿐 아니라 격식 있는 영어 표현까지 학습 범위를 넓혀줄 수 있기에 이 단어를 선정했다.
-- **become(~이 되다, ~해지다)**: become은 사람의 성장, 진로, 감정과 상태의 변화 등을 표현하는 기본 동사이다. 16세 학습자는 자신의 미래 계획이나 변화에 관한 생각을 영어로 말하고 쓸 기회가 많으므로, 이 단어를 통해 자신의 경험과 목표를 표현하는 능력을 기를 수 있기에 이 단어를 선정했다.
-- **carve(조각하다, 깎아 만들다)**: carve는 미술, 공예, 문화, 자연 등 다양한 주제의 글에서 등장할 수 있는 구체적인 동사이다. 또한 carve out a niche처럼 자신만의 영역을 만들어 간다는 비유적 표현에도 쓰인다. 이를 통해 학습자는 단어의 기본 의미와 확장된 의미를 연결하는 경험을 할 수 있기에 선정했다.
-- **caution(주의, 조심, 경고)**: 16세 학습자는 학교 실험실의 안전 수칙, 공공장소의 안내문, 온라인 서비스의 경고 문구 등에서 주의와 관련된 정보를 이해할 필요가 있다. use caution, a word of caution 등의 표현을 익히면 안전 관련 글과 설명문을 읽는 데에도 도움이 될 수 있어서 선정했다.
-- **domain(영역, 분야, (인터넷) 도메인)**: domain은 과학, 기술, 사회, 학문 등 다양한 분야를 다루는 설명문이나 정보성 글에서 사용된다. 또한 인터넷 도메인이라는 의미도 있어 디지털 환경과 연결해 학습할 수 있다. 여러 분야에서 쓰이는 단어를 익히면 특정 문맥에만 의존하지 않고 어휘의 의미를 추론하는 능력을 기를 수 있다.
-- **drown(익사하다, 물에 빠져 죽다; (소리 등에) 묻히다)**: drown은 물놀이와 수상 안전에 관한 안내문이나 이야기에서 사용되므로, 실제 생활과 관련된 글을 이해하는 데 유용하다. 또한 drown out the noise와 같은 표현에서는 소리가 다른 소리에 묻히는 상황을 나타낸다. 이처럼 기본 의미와 확장된 의미를 함께 학습하면 문맥에 따라 달라지는 단어의 의미를 파악하는 능력을 기를 수 있기에 선정했다.
-- **elaborate(정교한, 상세한; 자세히 설명하다)**: 16세 학습자는 자신의 의견을 뒷받침하는 근거를 제시하고, 발표나 글쓰기에서 생각을 구체적으로 설명하는 능력을 발달시킬 시기이다. elaborate on an idea와 같은 표현은 단순한 주장에 세부 정보와 설명을 덧붙일 때 유용하다. 또한 형용사와 동사로 모두 쓰인다는 점에서 품사에 따른 의미와 문장 구조를 익히기에도 적합해서 선정했다.
-- **emerge / emergence(emerge: 나타나다, 드러나다 emergence: 출현, 등장)**: emerge는 새로운 문제, 사실, 경향 등이 나타나는 상황을 설명할 때 쓰이며, emergence는 그러한 현상의 출현이나 등장을 나타내는 명사이다. 16세 학습자는 사회·과학·기술 관련 글을 접하면서 새로운 현상이나 변화를 설명하는 어휘를 배울 필요가 있다. 동사와 명사의 관계를 함께 학습하면 어휘의 형태 변화와 문장 구성 원리를 이해하는 데에도 도움이 되기에 선정했다.
+- **Main point:** [핵심 내용을 한두 문장으로 정리]
+- **What teachers can learn:** [교사로서 얻을 수 있는 시사점]
+
+### 1-2. Nakata et al. (2021)
+
+- **Main point:** [핵심 내용을 한두 문장으로 정리]
+- **What teachers can learn:** [교사로서 얻을 수 있는 시사점]
+
+### 1-3. Our Takeaway for the App
+
+- [두 논문을 바탕으로 우리 앱에 반영하고 싶은 점. 예: 단어를 여러 맥락에서 반복해서 만나게 하기, 단순히 다시 보기보다 기억에서 꺼내 보게(retrieval) 하기]
+
+---
+
+## 💙 2. Our Selected Words from the Basic Vocabulary List
+
+### 2-1. About the List
+
+- [목록을 살펴보고 알게 된 점. 예: 3,000개 단어, `*`/`**`로 학교급 표시, 단어군(word family)과 변이형(variation) 정보 포함 등]
+
+### 2-2. Selected Words (10–20)
+
+`[word 1]`, `[word 2]`, `[word 3]`, `[word 4]`, `[word 5]`, `[word 6]`, `[word 7]`, `[word 8]`, `[word 9]`, `[word 10]`
+
+### 2-3. Why We Chose These Words
+
+- [선정 기준 1. 예: 목표 학습자 수준(`*` 초등 권장 단어)에 맞는 단어]
+- [선정 기준 2. 예: 단어군 정보가 있어 word-family 활동에 쓸 수 있는 단어]
+- [선정 기준 3. 예: 학습자의 일상과 관련이 있어 예문을 만들기 쉬운 단어]
+
+---
+
+## 💙 3. App Design Draft
+
+### 3-1. Design Concept
+
+- [원하는 디자인의 특징. 예: 밝고 단순한 화면, 큰 버튼, 휴대폰에서 쓰기 편한 화면, 한국어 안내문]
+
+### 3-2. Learners
+
+- [Who will use the app? 예: Korean Grade 6 (K6) learners]
+
+### 3-3. Goal
+
+- [What should learners be able to do after using the app? 예: Recognize the meaning, spell the word, use it in a sentence]
+
+### 3-4. Learning Activities
+
+- **Encounters (Webb 2007):** [How many times and in what contexts will learners meet each word?]
+- **Retrieval (Nakata et al. 2021):** [When and how often will learners recall the word from memory?]
+
+### 3-5. Use of the List Information
+
+| Information | How our app uses it |
+|---|---|
+| Level (`*`, `**`) | [예: 단계별 학습 메뉴로 구분] |
+| Word family (e.g., *species* ~ *specify*) | [예: 같은 단어군 연결하기 퀴즈] |
+| Variation (e.g., *rumor* / *rumour*) | [예: 미국식/영국식 철자를 모두 정답으로 인정] |
+
+### 3-6. Context Elements (LPGCTXF, Week 03)
+
+| Element | Our decision |
+|---|---|
+| L | [Week 03 자료의 요소 이름과 우리 조의 결정 내용] |
+| P | [ ... ] |
+| G | [ ... ] |
+| C | [ ... ] |
+| T | [ ... ] |
+| X | [ ... ] |
+| F | [ ... ] |
+
+---
+
+## 💙 4. App Features
+
+> Choose **3–4 core features** only. Write one sentence for each: "This feature helps learners ___ because ___."
+
+1. **[Feature 1, e.g., Flashcards (word → meaning)]**: This feature helps learners [ ___ ] because [ ___ ].
+2. **[Feature 2]**: This feature helps learners [ ___ ] because [ ___ ].
+3. **[Feature 3]**: This feature helps learners [ ___ ] because [ ___ ].
+4. **[Feature 4 (optional)]**: This feature helps learners [ ___ ] because [ ___ ].
+
+---
+
+## 💙 5. Sample Word Data
+
+> Use **NA** for empty cells. Check AI-generated meanings and sentences carefully.
+
+| Word | Word-family | Variation | Level | Meaning (Korean) | Example sentence |
+|---|---|---|---|---|---|
+| act | actual, interact | NA | Elementary (*) | 행동하다 | They acted quickly to help. |
+| [word 2] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| [word 3] | [ ] | [ ] | [ ] | [ ] | [ ] |
+| ... | | | | | |
+
+---
 
 
 
+## 💙 6. Test and Improve
 
+### 6-1. Checklist
 
+- [ ] All features work (every button was clicked).
+- [ ] All words, meanings, and sentences are correct.
+- [ ] The app gives clear feedback for right and wrong answers.
+- [ ] Learners **retrieve** words and meet each word **more than once**.
+- [ ] The app is easy to use on a phone.
 
+### 6-2. Problems Found and How We Fixed Them
 
+| Problem | Fix |
+|---|---|
+| [예: 정답을 맞혀도 점수가 올라가지 않음] | [예: AI에게 점수 계산 부분만 고쳐 달라고 요청] |
+| [ ... ] | [ ... ] |
+
+### 6-3. Saved Versions
+
+- `index_v1.html`: [what this version has]
+- `index_v2.html`: [what changed]
+- `G1_project_draft.html`: final version
+
+---
+
+## 💙 7. Next Steps
+
+- [One thing we want to add or change in the next version]
