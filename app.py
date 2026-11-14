@@ -94,8 +94,11 @@ if s.current:
             if submitted:
                 if answer.strip():check(answer);st.rerun()
                 else:st.warning('단어를 입력해 주세요.')
-    if s.message:st.success(s.message) if s.done and q['word'] in s.collected else st.warning(s.message)
-    if s.done and st.button('➡️ 다음 문제',use_container_width=True):choose(pool,kind);st.rerun()
+if s.get("message"):
+    st.success(s["message"])
+
+if s.get("done", False) and q["word"] in s.get("collected", []):
+    st.write("🍣 초밥을 수집했어요!")    if s.done and st.button('➡️ 다음 문제',use_container_width=True):choose(pool,kind);st.rerun()
 else:st.info('위에서 학습 방식을 선택한 후 「새 문제 시작」을 눌러 주세요.')
 
 st.subheader('🏆 나의 초밥 컬렉션')
