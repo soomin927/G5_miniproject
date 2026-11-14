@@ -3,7 +3,7 @@
 ## 1. Group Information
 - Group: 5
 - Members (역할): 송수민(app-building), 오소민(app-building), 이다영(readme2.md)
-- Project link: (e.g., [https://github.com/mk316](https://github.com/mk316))
+- **Project link:** [https://github.com/soomin927/G5_project](https://github.com/soomin927/G5_project)
 
 ## 2. Target Learners
 중학교 1학년을 대상으로 
