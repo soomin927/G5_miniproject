@@ -21,7 +21,15 @@ Write what you changed from the first version. Use lists.
 5. 답이 없는 경우가 나오지 않도록 수정
 
 ## 5. Main Features
-List the main 3–4 features.
+
+1. This feature helps learners stay motivated and actively participate in vocabulary learning because they can collect sushi by answering vocabulary questions correctly.
+
+2. This feature helps learners recognize word meanings and understand vocabulary in context because they practice through multiple-choice questions, short-answer questions, and sentence completion activities.
+
+3. This feature helps learners understand their mistakes and improve vocabulary knowledge because they receive hints, get another chance to answer, and see explanations when they answer incorrectly again.
+
+4. This feature helps learners remember vocabulary for a longer time because previously incorrect words and words not reviewed recently appear more frequently in review activities.
+
 
 ## 6. Vocabulary Data
 Explain how the app uses the CSV file. 앱에 사용된 데이터 파일(csv) 링크도 꼭 포함시킬 것.
