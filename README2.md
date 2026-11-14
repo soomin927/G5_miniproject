@@ -31,7 +31,6 @@ Write what you changed from the first version. Use lists.
 CSV 파일에 포함된 3,000개 영어 단어와 한국어 뜻을 앱의 학습 데이터로 활용하여, 전체 어휘 중 단어를 무작위로 선택하고 다양한 단어를 반복적으로 학습할 수 있도록 함. **CSV 데이터 파일:** [Voca_3000.csv](https://github.com/soomin927/Streamlit_app/blob/main/Voca_3000.csv)
 
 ## 7. What We Learned Through This Group Activity
-Write 2–4 sentences.
-
+이번 조별 활동을 통해 학습자의 수준과 흥미를 고려하여 어휘 학습 앱을 설계하고 개선하는 방법을 배웠다. 특히 CSV 파일을 활용하여 어휘 데이터를 3,000개로 확대하고, 다양한 문제 유형과 반복 학습 기능을 적용해 볼 수 있어 새로웠다. 그리고, 개선 방향을 논의하면서 학습자의 요구를 반영하는 것이 중요하다는 점을 깨달았다.
 ## 8. Streamlit App
 [Open our Streamlit app](YOUR_STREAMLIT_URL)
