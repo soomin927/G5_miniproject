@@ -28,8 +28,7 @@ Write what you changed from the first version. Use lists.
 4. Hints and Cumulative Review: Learners receive hints and get another chance when they answer incorrectly, and cumulative review prioritizes previously incorrect words and words learned earlier to support long-term retention.
 
 ## 6. Vocabulary Data
-Explain how the app uses the CSV file. 앱에 사용된 데이터 파일(csv) 링크도 꼭 포함시킬 것.
-
+CSV 파일에 포함된 3,000개 영어 단어와 한국어 뜻을 앱의 학습 데이터로 활용하여 전체 어휘 중 단어를 무작위로 선택하여 다양한 단어를 반복적으로 학습할 수 있도록 함.  
 ## 7. What We Learned Through This Group Activity
 Write 2–4 sentences.
 
