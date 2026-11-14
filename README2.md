@@ -18,7 +18,6 @@ Write what you changed from the first version. Use lists.
 2. 학습 대상을 중학교 1학년으로 변경하고 수준별 학습 기능을 추가
 3. 객관식 외에 주관식 단어 쓰기 문제를 추가
 4. 중학생 수준의 예문을 추가하여 문맥 속에서 단어를 학습할 수 있도록 함
-5. 하루에 10~20개씩 학습할 수 있도록 목표 설정 기능을 추가하고자 함
 
 ## 5. Main Features
 
@@ -33,4 +32,4 @@ CSV 파일에 포함된 3,000개 영어 단어와 한국어 뜻을 앱의 학습
 ## 7. What We Learned Through This Group Activity
 이번 조별 활동을 통해 학습자의 수준과 흥미를 고려하여 어휘 학습 앱을 설계하고 개선하는 방법을 배웠다. 특히 CSV 파일을 활용하여 어휘 데이터를 3,000개로 확대하고, 다양한 문제 유형과 반복 학습 기능을 적용해 볼 수 있어 새로웠다. 그리고, 개선 방향을 논의하면서 학습자의 요구를 반영하는 것이 중요하다는 점을 깨달았다.
 ## 8. Streamlit App
-[Open our Streamlit app](YOUR_STREAMLIT_URL)
+[Open our Streamlit app]([YOUR_STREAMLIT_URL](https://g5-vocaquiz-sushivoca3000.streamlit.app/))
