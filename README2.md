@@ -14,22 +14,18 @@
 
 ## 4. What We Updated
 Write what you changed from the first version. Use lists.
-1. 알파벳으로 나와있는 선지 번호(숫자)로 수정
-2. 중학교 1학년 수준으로 데이터 수정
-3. 단어 3000개 다 들어가도록 수정
-4. 객관식 외 다양한 문제 유형(ex. 주관식) 나오도록 수정
-5. 답이 없는 경우가 나오지 않도록 수정
+1. 기존 20개 단어에서 3,000개 단어로 학습 데이터를 확대
+2. 학습 대상을 중학교 1학년으로 변경하고 수준별 학습 기능을 추가
+3. 객관식 외에 주관식 단어 쓰기 문제를 추가
+4. 중학생 수준의 예문을 추가하여 문맥 속에서 단어를 학습할 수 있도록 함
+5. 하루에 10~20개씩 학습할 수 있도록 목표 설정 기능을 추가하고자 함
 
 ## 5. Main Features
 
-1. This feature helps learners stay motivated and actively participate in vocabulary learning because they can collect sushi by answering vocabulary questions correctly.
-
-2. This feature helps learners recognize word meanings and understand vocabulary in context because they practice through multiple-choice questions, short-answer questions, and sentence completion activities.
-
-3. This feature helps learners understand their mistakes and improve vocabulary knowledge because they receive hints, get another chance to answer, and see explanations when they answer incorrectly again.
-
-4. This feature helps learners remember vocabulary for a longer time because previously incorrect words and words not reviewed recently appear more frequently in review activities.
-
+1. Sushi Collection Game: Learners select sushi on a moving conveyor belt and answer vocabulary questions and correct answers allow learners to collect sushi and stay motivated.
+2. Daily Vocabulary Learning: Learners study 20–30 new words each day from a list of 3,000 words, and daily learning helps learners manage their vocabulary learning step by step.
+3. Various Quiz Types: The app provides multiple-choice, sentence completion, and short-answer questions, and these activities help learners recognize word meanings and use vocabulary in different contexts.
+4. Hints and Cumulative Review: Learners receive hints and get another chance when they answer incorrectly, and cumulative review prioritizes previously incorrect words and words learned earlier to support long-term retention.
 
 ## 6. Vocabulary Data
 Explain how the app uses the CSV file. 앱에 사용된 데이터 파일(csv) 링크도 꼭 포함시킬 것.
